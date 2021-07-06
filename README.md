@@ -5,8 +5,8 @@ Amazing prime video is sponsoring a hackathon where teams will focus on predicti
 
 ### Method
 1. Write an ETL function to read in the three files (wikipedia, kaggle metadata, movilens rating data)
-2. clean all datasets (get rid of null values, merge information)
-3. load the data into a PostgreSQL movie database
+2. Clean all datasets (get rid of null values, merge information)
+3. Load the data into a PostgreSQL movie database
 
 ### Resources
 **Data sources**: movies_metadata.csv, ratings.csv, and wikipedia-movies.json can be found in the Resources folder
