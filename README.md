@@ -17,10 +17,10 @@ Amazing prime video is sponsoring a hackathon where teams will focus on predicti
 2. dataframes are cleaned by filtering out TV shows, formatting units for budget and box office columns, parsing the release date, dropping duplicate values and merging on IMDB ID. See the ETL_clean_kaggle_data.ipynb file for a detailed perspective on how data was cleaned per column.
 3. Data was then loaded into a postgreSQL movie database using pgADMIN. Fig. 1 and 2 are images of the queries to count the number of rows in the movies (Fig. 1) and ratings (Fig. 2) tables respectively. 
 
-**Fig. 1** Movies count row query
+**Fig. 1** Movies table count row query
 
 <img width="429" alt="movies_query" src="https://user-images.githubusercontent.com/45336910/124537822-9eb8e280-dde8-11eb-9592-566d860befa5.png">
 
-**Fig. 2** Ratings count row query
+**Fig. 2** Ratings table count row query
 
 <img width="443" alt="ratings_query" src="https://user-images.githubusercontent.com/45336910/124537885-b8f2c080-dde8-11eb-8c0a-e8482a7f5f7c.png">
